@@ -505,7 +505,7 @@ $this->searchManager()->add('field', 'MyCustom');
 
 ## Persisting the Query String
 
-Persisting the query string can be done with the `queryStringWhitelist` option.
+Persisting the query string can be done with the `queryStringWhitelist` option of `PrgComponent`.
 The CakePHP's Paginator params `sort` and `direction` when filtering are kept
 by default. Simply add all query strings that should be whitelisted.
 
